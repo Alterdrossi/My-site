@@ -1,0 +1,140 @@
+body {
+    background-color: #fffbde;
+}
+
+.btn-primary{
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #fffbde;
+    --bs-btn-bg: #129990;
+    --bs-btn-border-color: #085452;
+    --bs-btn-hover-color: #fffbde;
+    --bs-btn-hover-bg: #085452;
+    --bs-btn-hover-border-color:#90d1ca;
+    --bs-btn-active-color:#fffbde;
+    --bs-btn-active-bg: #16403B;
+    --bs-btn-active-border-color: #4E9B93;
+}
+
+a{
+    color: #fffbde;
+    text-decoration: none;
+}
+
+.color-background{
+    background-color: #096b68;
+}
+
+h1{
+    color: #fffbde;
+    font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5rem;
+}
+
+h2{
+    color: #90d1ca;
+    font-family: "Signika", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:"GRAD" 0;
+        font-size: 3rem;
+        text-transform: uppercase;
+}
+
+h3 {
+    color:#096b68;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
+    font-size: 3rem;
+    
+}
+
+
+.montserrat-text{
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;      
+}
+
+.box{
+    height: 1rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color:#096b68;
+    
+}
+
+.footer{
+    background-color: #129990;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    
+         
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.text-block {
+    margin-bottom: 0;
+    color: #129990;
+        font-family: "Signika", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "GRAD" 0;
+        font-size: 1rem;
+}
+
+.box-text{
+    color:#fffbde;
+        font-family: "Signika", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: light;
+        font-variation-settings: "GRAD" 0;
+        
+}
+.my-card .card-img {
+    object-fit: cover;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.my-card {
+    height: 100%;
+    /* o quanto vuoi */
+}
+
+.my-card .overlay {
+    
+    color: white;
+    
+    transition: opacity 0.5s ease;
+    z-index: 2;
+}
+
+.my-card:hover .overlay {
+    opacity: 0;
+}
+
+.overlay{
+    height: 100%;
+}
+
+#about{
+    background-color: #096b68;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px ;
+}
